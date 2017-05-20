@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+        https://github.com/oe-alliance/oe-alliance-tuxbox-common/tree/master/src
+-->
+
+<cables>
+  <cable name="QAM" satfeed="true" flags="9">
+    <transponder frequency="130000000" symbol_rate="4000000" fec_inner="0" modulation="3"/>
+    <transponder frequency="138000000" symbol_rate="4000000" fec_inner="0" modulation="3"/>
+    <transponder frequency="146000000" symbol_rate="4000000" fec_inner="0" modulation="3"/>
+    <transponder frequency="154000000" symbol_rate="4000000" fec_inner="0" modulation="3"/>
+    <transponder frequency="202000000" symbol_rate="6900000" fec_inner="0" modulation="5"/>
+    <transponder frequency="228000000" symbol_rate="6875000" fec_inner="0" modulation="3"/>
+    <transponder frequency="236000000" symbol_rate="6110000" fec_inner="0" modulation="3"/>
+  </cable>
+</cables>

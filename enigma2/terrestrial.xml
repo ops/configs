@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+        https://github.com/oe-alliance/oe-alliance-tuxbox-common/tree/master/src
+-->
+
+<locations>
+  <terrestrial name="Suomi (UHF+VHF)" flags="5">
+    <!-- MUX-UHF A Tampere, DVB-T -->
+    <transponder centre_frequency="578000000" bandwidth="0" system="0" constellation="3" />
+    <!-- MUX-UHF C Tampere, DVB-T -->
+    <transponder centre_frequency="658000000" bandwidth="0" system="0" constellation="3" />
+    <!-- MUX-UHF E Tampere, DVB-T -->
+    <transponder centre_frequency="674000000" bandwidth="0" system="0" constellation="3" />
+
+    <!-- MUX-UHF B Tampere, DVB-T2 -->
+    <transponder centre_frequency="650000000" bandwidth="0" system="1" constellation="3" />
+    <!-- MUX-UHF F Tampere, DVB-T2 -->
+    <transponder centre_frequency="498000000" bandwidth="0" system="1" constellation="3" />
+
+    <!-- MUX-VHF A Kangasala, DVB-T2 -->
+    <transponder centre_frequency="198500000" bandwidth="1" system="1" constellation="3" />
+    <!-- MUX-VHF B Kangasala, DVB-T2 -->
+    <transponder centre_frequency="226500000" bandwidth="1" system="1" constellation="3" />
+    <!-- MUX-VHF B Kangasala, DVB-T2 -->
+    <transponder centre_frequency="212500000" bandwidth="1" system="1" constellation="3" />
+  </terrestrial>
+</locations>
